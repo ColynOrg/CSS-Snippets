@@ -3,8 +3,8 @@
 [aria-label="User area"] [class^=nameTag_] [class^=hovered_]::before,
 /* Switch Accounts */
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
-/* Profiles */
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
+/* Profiles */
 :where([class^=userPopoutInner_], [class^=fullSizeOuter_], [class^=userPanelInner_]) [class^=userTagUsername_]::before,
 /* Mod View */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
