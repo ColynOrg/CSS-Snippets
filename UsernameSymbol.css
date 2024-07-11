@@ -27,8 +27,6 @@
 [class^=bannedUser_] [class^=username_]::before,
 /* Friends list */
 [class^=peopleListItem_] [class^=infoSpacing_]::before,
-/* Unfriend/Block Modal */
-[class^=focusLock_] [class^=root_] [class^=defaultColor_] strong::before,
 /* Settings/My Account */
 [class^=accountProfileCard_] [class^=field_]:nth-last-child(3) [class^=usernameInnerRow_]::before {
     color: var(--text-muted);
