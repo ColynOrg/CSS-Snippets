@@ -1,6 +1,6 @@
 /* Add "@" before Usernames */
-/* User Area */
-[aria-label="User area"] [class^=nameTag_] [class^=hovered_]::before,
+/* User Panel Area */
+[class^=container_] [class^=nameTag_] [class^=hovered_]::before,
 /* Switch Accounts */
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
