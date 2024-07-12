@@ -5,7 +5,7 @@
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
 /* Profiles - Credits to Skye */
-:where([class^=userPopoutInner_], [class^=fullSizeOuter_], [class^=userPanelInner_]) [class^=userTagUsername_]::before,
+:where([class^=userPopoutInner_], [class^=userProfileModalInner_], [class^=userPanelInner_]) :where([class^=userTagUsername_], [class^=username_])::before,
 /* Mod View */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
 [class^=userProfileModalOuter_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
