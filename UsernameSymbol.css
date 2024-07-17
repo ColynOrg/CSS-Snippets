@@ -22,7 +22,7 @@
 /* Soundboard */
 [class^=soundTable_] [class^=uploader_] [class^=defaultColor_]::before,
 /* Audit Log */
-[class^=auditLog_] [class^=title_] [class^=defaultColor_]::before,
+[class^=auditLog_] [class^=title_] [class^=defaultColor_]:not([class*=discrim_])::before,
 /* Ban List */
 [class^=bannedUser_] [class^=username_]::before,
 /* Friends list */
