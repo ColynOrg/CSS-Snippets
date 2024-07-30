@@ -9,6 +9,9 @@
 /* Mod View */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
 [class^=userProfileModalOuter_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
+/* Quick Switcher Search Results / Server Search Results */
+[class^=quickswitcher_] [class^=username_]::before,
+[class^=resultsGroup_] [class^=displayUsername_]::before,
 /* Members List */
 [class^=roundedRow_] [class="text-xs/normal_dc00ef"]::before,
 /* Roles/Add Member */
