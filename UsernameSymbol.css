@@ -27,6 +27,8 @@
 [class^=bannedUser_] [class^=username_]::before,
 /* Friends list */
 [class^=peopleListItem_] [class^=infoSpacing_]::before,
+/* Select Friends / Create DM */
+[class^=friendWrapper_] [class*=discordTag_]::before,
 /* Settings/My Account */
 [class^=accountProfileCard_] [class^=field_]:nth-last-child(3) [class^=usernameInnerRow_]::before {
     color: var(--text-muted);
