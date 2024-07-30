@@ -12,6 +12,8 @@
 /* Quick Switcher Search Results / Server Search Results */
 [class^=quickswitcher_] [class^=username_]::before,
 [class^=resultsGroup_] [class^=displayUsername_]::before,
+/* Message Box Auto Complete */
+[class^=autocomplete_]:has([class^=autocompleteRowIcon_]):has([class^=pointerEvents_]) [class^="text-xs/normal_dc00ef"]::before,
 /* Members List */
 [class^=roundedRow_] [class="text-xs/normal_dc00ef"]::before,
 /* Roles/Add Member */
