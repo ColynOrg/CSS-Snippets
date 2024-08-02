@@ -14,6 +14,8 @@
 [class^=resultsGroup_] [class^=displayUsername_]::before,
 /* Message Box Auto Complete */
 [class^=autocomplete_]:has([class^=autocompleteRowIcon_]):has([class^=pointerEvents_]) [class^="text-xs/normal_dc00ef"]:not(:has([class^=descriptionDiscriminator_])) ::before,
+/* View Reactions */
+[class^=reactorsContainer_] [class*=reactor_]:not(:has([class^=discriminator_])) [class^=username_]::before,
 /* Members List (Impossible to ignore Bots - would require a Plugin) */
 [class^=roundedRow_] [class="text-xs/normal_dc00ef"]::before,
 /* Roles/Add Member */
