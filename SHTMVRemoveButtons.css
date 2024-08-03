@@ -1,0 +1,4 @@
+/* ShowHiddenThings / Mod View / Remove actions like Kick, Ban, and Timeout if disabled due to insufficient permissions. */
+[class^=guildSidebar_] [class^=bottomRow_]:has([class*=bottomRowActionDisabled_]) [class*=bottomRowActionDisabled_] {
+  display: none;
+}
