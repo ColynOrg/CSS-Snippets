@@ -9,6 +9,8 @@
 /* Mod View (Impossible to ignore Bots - would require a Plugin) */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
 [class^=userProfileModalOuter_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
+/* Start of DMs (Impossible to ignore Bots - would require a Plugin) */
+[class^=chatContent_] [class^=messagesWrapper_] [class^=container_] [class*=marginBottom20_]::before,
 /* Report User Profile */
 [class^=container_] [class^=content_] [class^=userContainer_]:has([class*=userIcon_]) [class="text-sm/normal_dc00ef"]::before,
 /* Quick Switcher Search Results / Server Search Results (Impossible to ignore Bots - would require a Plugin) */
