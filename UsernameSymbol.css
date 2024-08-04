@@ -5,7 +5,7 @@
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
 /* Profiles - Credits to Skye */
-:where([class^=userPopoutInner_], [class^=userProfileModalInner_], [class^=userPanelInner_]):not(:has([class^=userTagDiscriminator_])):has([class^=clickableUsername_]) :where([class^=userTag])::before,
+:where([class^=userPopoutInner_], [class^=userProfileModalInner_], [class^=userPanelInner_]):not(:has([class^=userTagDiscriminator_])) :where([class^=userTag])::before,
 /* Mod View (Impossible to ignore Bots - would require a Plugin) */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
 [class^=userProfileModalOuter_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
