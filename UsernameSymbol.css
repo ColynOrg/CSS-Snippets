@@ -6,6 +6,8 @@
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
 /* Profiles - Credits to Skye */
 :where([class^=userPopoutInner_], [class^=userProfileModalInner_], [class^=userPanelInner_]):not(:has([class^=userTagDiscriminator_])) :where([class^=userTag])::before,
+/* ReviewDB Plugin */
+.vc-rdb-review:not(:has([class*=botTag_])) [class*=username_]::before,
 /* Mod View (Impossible to ignore Bots - would require a Plugin) */
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
 [class^=userProfileModalOuter_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
