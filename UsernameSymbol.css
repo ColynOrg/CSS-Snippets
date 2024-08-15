@@ -36,9 +36,11 @@
 [class^=soundTable_] [class^=uploader_] [class^=defaultColor_]::before,
 /* Audit Log (Impossible to ignore Bots - would require a Plugin) */
 [class^=auditLog_] [class^=title_]:not(:has([class*=discrim_])) [class^=defaultColor_]::before,
+/* Audit Log Filter By User */
+[class^=combobox_] [class^=item_]:not(:has([class*=discriminator_])) [class^=defaultColor_]::before,
 /* Ban List */
 [class^=bannedUser_]:not(:has([class*=discrim_])) [class^=username_]::before,
-/* Friends list */
+/* Friends List */
 [class^=peopleListItem_] [class^=infoSpacing_]::before,
 /* Select Friends / Create DM */
 [class^=friendWrapper_] [class*=discordTag_]::before,
