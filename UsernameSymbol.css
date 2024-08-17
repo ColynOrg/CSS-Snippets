@@ -1,6 +1,6 @@
 /* Add "@" before Usernames */
 /* User Panel Area */
-[class^=container_] [class^=nameTag_] [class^=hovered_]::before,
+[class^=avatarWrapper_] [class^=nameTag_] [class^=hovered_]::before,
 /* Switch Accounts */
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
@@ -14,7 +14,7 @@
 /* Start of DMs (Impossible to ignore Bots - would require a Plugin) */
 [class^=chatContent_] [class^=messagesWrapper_] [class^=container_] [class*=marginBottom20_]::before,
 /* Report User Profile */
-[class^=container_] [class^=content_] [class^=userContainer_]:has([class*=userIcon_]) [class="text-sm/normal_dc00ef"]::before,
+[class^=slideContainer_] [class^=content_] [class^=userContainer_]:has([class*=userIcon_]) [class="text-sm/normal_dc00ef"]::before,
 /* Quick Switcher Search Results / Server Search Results (Impossible to ignore Bots - would require a Plugin) */
 [class^=quickswitcher_] [class^=username_]::before,
 [class^=resultsGroup_] [class^=displayUsername_]::before,
