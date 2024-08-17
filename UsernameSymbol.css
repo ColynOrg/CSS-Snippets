@@ -20,6 +20,8 @@
 [class^=resultsGroup_] [class^=displayUsername_]::before,
 /* Message Box Auto Complete */
 [class*=autocompleteRow_]:has([class^=autocompleteRowIcon_] [class^=pointerEvents_]) [class^="text-xs/normal_dc00ef"]:not(:has([class^=descriptionDiscriminator_]))::before,
+/* Polls */
+[class^=votersListContainer_] [class^=voters_] [class^=username_]::before,
 /* View Reactions */
 [class^=reactorsContainer_] [class*=reactor_]:not(:has([class^=discriminator_])) [class^=username_]::before,
 /* Members List (Impossible to ignore Bots - would require a Plugin) */
