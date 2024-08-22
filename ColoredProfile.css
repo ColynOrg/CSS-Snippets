@@ -21,7 +21,7 @@
   border: 1px solid var(--profile-gradient-button-color);
 }
 /* Match Profile Scroller with Profile Button Color for Custom Profiles */
-.custom-profile-theme [class^=scroller_]::-webkit-scrollbar-thumb {
+.custom-profile-theme [class*=scrollerBase_]::-webkit-scrollbar-thumb {
   background-color: var(--profile-gradient-button-color);
 }
 /* Match Clan Button Color with Profile Button Color for Custom Profiles */
