@@ -1,0 +1,47 @@
+/* Brighter Status Text for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_] [class^=defaultColor_] {
+  color: var(--white-500);
+}
+/* Match Status Bubble Color with Profile Button Color with Box Shadow for Custom Profiles */
+.custom-profile-theme [class^=statusBubble_],
+.custom-profile-theme [class^=statusBubbleOuter_]:before,
+.custom-profile-theme [class^=statusBubbleOuter_]:after {
+  background-color: var(--profile-gradient-button-color);
+}
+/* Match Badges Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [aria-label="User Badges"] {
+  border-color: var(--profile-gradient-button-color);
+}
+/* Match Profile Box Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=fullSizeOverlayBackground] {
+  border-color: var(--profile-gradient-button-color)!important;
+}
+/* Add Panel Profile Box Border Color with Profile Button Color for Custom Profiles */
+[class^=userPanelInner_] :is([class^=overlayBackground_], [class^=activityBiteSizePopout_]) {
+  border: 1px solid var(--profile-gradient-button-color);
+}
+/* Match Profile Scroller with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=scroller_]::-webkit-scrollbar-thumb {
+  background-color: var(--profile-gradient-button-color);
+}
+/* Match Clan Button Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=chipletContainerInner_] {
+  background: var(--profile-gradient-button-color);
+}
+/* Match Activity Buttons Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=activityBiteSizePopout_] button,
+.custom-profile-theme [class^=activitySimplifiedProfile_] button {
+  background-color: var(--profile-gradient-button-color)!important;
+}
+/* Match Show More Roles and Permissions Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme :is([class^=showMoreButton_], .vc-permviewer-role-button)  {
+  border-color: var(--profile-gradient-button-color);
+}
+/* Add Border to Activities and Match with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=activityBiteSizePopout_] {
+  border: 1px solid var(--profile-gradient-button-color);
+}
+/* Match Connections Border Color with Profile Button Color for Custom Profiles */
+.custom-profile-theme [class^=connectedAccountContainer_] {
+  border-color: var(--profile-gradient-button-color);
+}
