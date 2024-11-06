@@ -4,8 +4,8 @@
 /* Switch Accounts */
 [class^=submenu_] [class^=userMenuUsername] [class^=defaultColor_]::before,
 [class^=accountCard_] [class^=userDetails_] [class^=username_]::before,
-/* Profiles - Credits to Skye */
-:where([class^=biteSizeInner_], [class^=userProfileModalInner_], [class^=userPanelInner_]):not(:has([class^=userTagDiscriminator_])) :where([class^=userTag])::before,
+/* Profiles */
+:where([class^=inner_]):not(:has([class^=userTagDiscriminator_])) :where([class^=userTag])::before,
 /* ReviewDB Plugin */
 .vc-rdb-review:not(:has([class*=botTag_])) [class*=username_]::before,
 /* Mod View (Impossible to ignore Bots - would require a Plugin) */
