@@ -22,6 +22,8 @@
 [class^=resultsGroup_] [class^=displayUsername_]::before,
 /* Message Box Auto Complete */
 [class*=autocompleteRow_]:has([class^=autocompleteRowIcon_] [class^=pointerEvents_]) [class^="text-xs/normal_dc00ef"]:not(:has([class^=descriptionDiscriminator_]))::before,
+/* Forward To */
+:has([class^=forwardPreviewWrapper_]) [class^=identity_]:has([class^=pointerEvents_]) [class^="text-xs/normal_dc00ef"]::before,
 /* Polls */
 [class^=votersListContainer_] [class^=voters_] [class^=username_]::before,
 /* View Reactions */
