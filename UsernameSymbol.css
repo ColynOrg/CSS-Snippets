@@ -11,6 +11,7 @@
 /* ReviewDB Plugin */
 .vc-rdb-review:not(:has([class*=botTag_])) [class*=username_]::before,
 /* Mod View (Impossible to ignore Bots - would require a Plugin) */
+[class^=sidebarContainer__] [class^=memberNameContainer_] [class="text-md/medium_cf4812"]::before,
 [class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_cf4812"]::before,
 /* Start of DMs (Impossible to ignore Bots - would require a Plugin) */
 [class^=chatContent_] [class^=messagesWrapper_] [class^=container_] [class*=marginBottom20_]::before,
